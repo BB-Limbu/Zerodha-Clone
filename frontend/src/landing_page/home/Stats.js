@@ -18,8 +18,8 @@ function Stats() {
           </p>
           <h2 className="fs-4">The Zerodha universe</h2>
           <p className="text-muted">
-            Not just an app, but a whole ecosytem.Our investments in ₹30+ fintech
-            startups offer you tailored services specific to you need
+            Not just an app, but a whole ecosytem.Our investments in ₹30+
+            fintech startups offer you tailored services specific to you need
           </p>
           <h2 className="fs-4">Do better with money</h2>
           <p className="text-muted">
