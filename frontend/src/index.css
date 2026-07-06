@@ -14,3 +14,10 @@ code {
 .nav-item{
   margin-left: 40px;
 }
+#footer_section ,a{
+  color: #828282;
+  height :3px;
+  display: block;
+   margin: 8px 0;  
+  text-decoration: none;
+}

@@ -10,7 +10,7 @@ function Footer() {
           <p> &copy; 2010 - 2026, Zerodha Broking Ltd.All rights reserved</p>
         </div>
         <div className="col-2">
-          <p>Account</p>
+          <p  id = "footer-section">Account</p>
           <a href="">Open demat account </a>
           <br />
           <a href="">Minor demat account</a>
@@ -83,7 +83,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="mt-5 text-small text-muted" style ={{fontSize:"14px"}}>
+      <div className=" mt-5 text-small text-muted" style ={{fontSize:"12px "}}>
       <p>
         Zerodha Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration
         no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking
@@ -162,7 +162,10 @@ function Footer() {
         regulated by the Reserve Bank of India (RBI).
       </p>
 
-      <p>NSE BSE MCX MSEI Terms & conditions Policies & procedures Privacy policy Disclosure For investor's attention Investor charter Sitemap</p>
+      <div className=" d-flex justify-content-between">
+         <a href ="/"></a>NSE <a/>
+      <a href ="#">BSE </a>
+       <a  href ="#">MCX </a> MSEI Terms & conditions Policies & procedures Privacy policy Disclosure For investor's attention Investor charter Sitemap</div>
       </div>
     </div>
     </footer>
