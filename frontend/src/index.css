@@ -21,3 +21,14 @@ code {
    margin: 8px 0;  
   text-decoration: none;
 }
+
+.footer-link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  transition:color 0.3s ease ;
+}
+.footer-link a:hover{
+  color:#1313c2;
+  
+}

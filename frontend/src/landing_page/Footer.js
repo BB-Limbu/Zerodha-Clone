@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer style ={{backgroundColor:"rgb(240,240,240)"}}>
+    <footer style ={{backgroundColor:"rgb(250,250,250)"}}>
     <div className="container border-top mt-5">
       <div className="row mt-5">
         <div className="col-3">
@@ -161,12 +161,19 @@ function Footer() {
         Grievance Redressal Forum, or Arbitration mechanism. Fixed deposits are
         regulated by the Reserve Bank of India (RBI).
       </p>
-
-      <div className=" d-flex justify-content-between">
-         <a href ="/"></a>NSE <a/>
-      <a href ="#">BSE </a>
-       <a  href ="#">MCX </a> MSEI Terms & conditions Policies & procedures Privacy policy Disclosure For investor's attention Investor charter Sitemap</div>
       </div>
+      <div className="footer-link">
+      <a href ="#">NSE </a>
+      <a href ="#">BSE </a>
+       <a  href ="#">MCX </a>
+       <a href ="#">MSEI </a>
+       <a href ="#">Terms & conditions</a>
+       <a href ="#"> Policies & procedures</a>
+       <a href = "#">Privacy policy </a>
+       <a href ="#">Disclosure</a>
+        <a href = "#"> For investor's attention</a>
+        <a href = "#"> Investor charter Sitemap</a>
+        </div>
     </div>
     </footer>
   );
