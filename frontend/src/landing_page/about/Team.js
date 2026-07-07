@@ -14,10 +14,10 @@ function Team() {
         <div className="col-6 p-5 text-center">
           <img
             src="media/images/bblimbu.jpeg"
-            style={{ borderRadius: "100%", width: "70%" }}
+            style={{ borderRadius: "100%", width: "60%" }}
           />
           <h4 className="mt-5">BB Limbu</h4>
-          <h6>Project</h6>
+          <h6> Clone Project</h6>
         </div>
         <div className="col-6 p-5">
           <p>
