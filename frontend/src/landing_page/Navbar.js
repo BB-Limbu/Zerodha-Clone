@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
+      class="navbar navbar-expand-lg border-bottom sticky-top"
       style={{ backgroundColor: "#FFF" }}
     >
-      <div class="container p-2">
+      <div class="container p-2 mb-3">
         <Link class="navbar-brand" to="/">
-          <img src="media/images/logo.svg" style={{ width: "30%" }} alt="log" />
+          <img src="media/images/logo.svg" style={{ width: "25%" }} alt="log" />
         </Link>
         <button
           class="navbar-toggler"
