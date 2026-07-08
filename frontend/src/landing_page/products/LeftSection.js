@@ -17,9 +17,9 @@ function LeftSection({
         </div>
         <div className="col-2"></div>
         <div className="col-5">
-          <h2>{productName}</h2>
+          <h2 className="mt-5">{productName}</h2>
           <p
-            className="mt-3"
+            className="mt-5"
             style={{ fontSize: "18px", lineHeight: "1.7", fontWeight: "400" }}
           >
             {productDescription}
@@ -46,12 +46,7 @@ function LeftSection({
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="row">
-        <div className="col-5"></div>
-        <div className="col-2"></div>
-        <div className="col-5"></div>
+       
       </div>
     </div>
   );
