@@ -4,8 +4,8 @@ function Hero() {
   return (
     <div className="container">
       <div className="row p-5 mt-5 text-center border-bottom">
-        <h2 className="mt-5">Charges</h2>
-        <h3 className="text-muted mt-3 fs-5">List of all charges and taxes</h3>
+        <h2 className="mt-5">Pricing</h2>
+        <h3 className="text-muted mt-3 fs-5">Free equity investment and flat  ₹20 traday F&O trades</h3>
       </div>
       <div className="row p-5 mt-5 text-center">
         <div className="col-4 -p-5">
