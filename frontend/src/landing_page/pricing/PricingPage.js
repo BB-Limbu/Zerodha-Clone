@@ -1,11 +1,13 @@
 import React from 'react';
-import Her from './Hero';
+import Hero from './Hero';
 import Brokerage from './Brokerage';
+import OpenAccount from '../OpenAccount';
 
 function PricingPage() {
     return (
         <>
-        <Her/>
+        <Hero/>
+        <OpenAccount />
         <Brokerage/>
         </>
       );
