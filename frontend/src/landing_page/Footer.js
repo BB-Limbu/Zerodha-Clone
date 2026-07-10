@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer style={{ backgroundColor: "rgb(250,250,250)", }}>
-      <div className="container border-top mt-5 mb-4">
+      <div className="container-fluid border-top mt-5 mb-4">
         <div className="row mt-5">
           <div className="col-3">
             <img src="media/images/logo.svg" style={{ width: "50%" }} />

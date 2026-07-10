@@ -49,3 +49,29 @@ code {
   font-size: 0.8rem;
   font-family: "Inter", serif;
 }
+
+#supportHero{
+  background-color: rgb(56,126,209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+  margin-right: 15px;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+
+}
+
+#supportHero input{
+  margin-top: 18px;
+  padding: 10px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
