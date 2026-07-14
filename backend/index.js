@@ -11,7 +11,7 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
-
+/*
 app.get("/addHoldings", async (req, res) => {
   let tempHoldings = [
     {
@@ -186,7 +186,7 @@ app.get("/addPositions", async (req, res) => {
     message: "Positions item done!",
   });
 });
-
+*/
 
 app.listen(3002, () => {
   console.log("App started");
